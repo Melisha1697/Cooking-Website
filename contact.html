@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cooking Food | Contact Us</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Take Good Food and Stay Healthy" />
+    <meta
+      name="keywords"
+      content="cooking food, website, good food, healthy food."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/media-query.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html" class="logo">Cooking <span>Foods</span></a>
+      <ul class="header-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+      <div class="header-buttons">
+        <button class="signup-btn">
+          <i class="fas fa-sign-in-alt"></i>
+          <a href="signup.html">Sign Up</a>
+        </button>
+        <button class="login-btn">
+          <i class="fas fa-user"></i>
+          <a href="login.html">Log In</a>
+        </button>
+        <div class="categories-btn">
+          <i class="fas fa-cart"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Go up -->
+    <button class="go-up-button hide">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Contacts -->
+    <section id="contact">
+      <div class="container">
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="content">
+            <h3>Location</h3>
+            <p class="paragraph">
+              USA, 3280 Cabell Avenue Alexandria, VA 22301
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="content">
+            <h3>Phone</h3>
+            <p class="paragraph">Tel.: +1 703-518-6099</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="content">
+            <h3>Email</h3>
+            <p class="paragraph">info@tutor.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Information Form -->
+    <div class="information-form">
+      <h1 class="heading-primary">Ask question</h1>
+      <form class="form">
+        <div class="row">
+          <input
+            type="text"
+            name="first_name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="last_name"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <div class="row">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email address"
+            required
+          />
+          <input
+            type="number"
+            name="phone"
+            placeholder="Phone Number"
+            required
+          />
+        </div>
+        <div class="row">
+          <select name="subject" aria-placeholder="Subject">
+            <option value="language">Cooking</option>
+            <option value="science">Diet</option>
+            <option value="Humanities">Fast Food</option>
+            <option value="business">Restaurants</option>
+            <option value="marketing">Vegetables</option>
+          </select>
+        </div>
+        <textarea name="message" placeholder="Message"></textarea>
+        <button class="btn-primary">
+          Send <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+
+    <div>
+      <aside class="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56542.93013682987!2d85.28813251220907!3d27.657540424516064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19d3cf18ca51%3A0xd10ec3d53656e18f!2sLalitpur!5e0!3m2!1sen!2snp!4v1629696677287!5m2!1sen!2snp"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          loading="lazy"
+        ></iframe>
+      </aside>
+    </div>
+
+    <!-- Search -->
+    <section id="search">
+      <div class="">
+        <div class="search__container">
+          <h2 class="heading-primary">Can’t find what you are looking for?</h2>
+          <h3 class="heading-tertiary">
+            Submit a ticket and we'll get back to you as soon as we can.
+          </h3>
+          <div class="form-search">
+            <div class="form-control">
+              <i class="fas fa-search"></i>
+              <input type="text" name="search" class="form-input" />
+            </div>
+            <button class="btn btn-form">Find Courses</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="category-container">
+        <div class="category">
+          <h4 class="category-header">Customer Care</h4>
+          <a href="#">
+            <p class="category-link">About Us</p>
+          </a>
+          <a href="#">
+            <p class="category-link">My Cart</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Wishlist</p>
+          </a>
+          <a href="#">
+            <p class="category-link">FAQs</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Support</p>
+          </a>
+        </div>
+        <div class="category">
+          <h4 class="category-header">Sellers</h4>
+          <a href="#">
+            <p class="category-link">Start Selling</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Learn to Sell</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Independent Sell</p>
+          </a>
+        </div>
+        <div class="category">
+          <h4 class="category-header">User Polciy</h4>
+          <a href="#">
+            <p class="category-link">Privacy Policy</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Terms and Conditions</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Data Policy</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Cookie Policy</p>
+          </a>
+          <a href="#">
+            <p class="category-link">Refund Policy</p>
+          </a>
+        </div>
+        <div>
+          <div class="links">
+            <h4 class="category-header">Connect with us</h4>
+            <ul>
+              <li>
+                <i class="fab fa-facebook"></i>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i>
+              </li>
+              <li>
+                <i class="fab fa-twitter"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="payments" style="margin-top: 20px">
+            <h4 class="category-header">Payment Partners</h4>
+            <ul class="payment">
+              <li style="margin-right: 10px">
+                <img width="100" src="./img/paypal.png" alt="Paypal" />
+              </li>
+              <li>
+                <img width="100" src="./img/stripe.png" alt="Stripe" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="apps">
+          <h4 class="category-header">Coming Soon...</h4>
+          <img src="./img/play-store.png" alt="Play Store" />
+          <img src="./img/app-store.png" alt="App Store" />
+        </div>
+      </div>
+      <hr />
+      <p class="footer-copyright">
+        Copyright &copy; 2021 | <span>Cooking Website</span>
+      </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

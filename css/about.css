@@ -1,0 +1,211 @@
+#about {
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-container .heading {
+  font-size: 36px;
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(252, 111, 111);
+}
+
+.about-description {
+  display: flex;
+}
+
+.about-image {
+  padding: 10px;
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+}
+
+.about-content {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.about-content p {
+  padding: 10px 0;
+}
+
+/* ============= Chefs ================== */
+
+#chefs {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+#chefs .heading-primary {
+  font-size: 36px;
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(252, 111, 111);
+}
+
+.chefs-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.chefs-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.chefs-item {
+  width: 30%;
+  border: 1px solid rgba(92, 177, 0, 0.2);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.chefs-item-image {
+  overflow: hidden;
+  width: 100%;
+  height: 22rem;
+}
+
+.chefs-item-image img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.chefs-item:hover img {
+  transform: scale(1.1);
+}
+
+.chefs-item-content {
+  padding: 1rem;
+}
+
+.chef-links {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef-links > li {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  margin: 0 0.5rem;
+}
+
+/* ============== End of Chefs =========== */
+
+/* ============ Testimonials ========= */
+#testimonials {
+  padding: 100px 10px;
+  background-color: #dbdbdb;
+  text-align: center;
+}
+
+.testimonials__image {
+  margin: 30px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 120px;
+  width: 120px;
+}
+
+.testimonials__image img {
+  object-fit: fill;
+  width: 120px;
+}
+
+.testimonials__description p {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.quote {
+  margin: 30px auto;
+}
+
+/* =============== End of Testimonials ================ */
+
+/* ================ Search ====================== */
+
+#search {
+  background-color: #ffffff;
+  padding: 8rem 1rem;
+  position: relative;
+}
+
+.search__container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.search__container h3 {
+  margin: 1rem 0 2rem;
+}
+
+.search__container button {
+  margin: 0;
+}
+.form-search {
+  display: flex;
+  align-items: center;
+}
+
+.form-search .form-control {
+  background-color: #fff;
+  border: 1px solid #b9b9b9;
+  height: 3rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.8rem;
+  margin-right: 1rem;
+}
+
+.form-search .form-control i {
+  font-size: 1.2rem;
+}
+
+.form-search .form-control .form-input {
+  background-color: transparent;
+  border: 0;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.btn-form {
+  padding: 0.5rem 1rem;
+  height: 3rem;
+  background-color: rgb(253, 84, 84);
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 10rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-left: 5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  background-color: rgb(252, 111, 111);
+}
+
+/* ================= End of Search ==================== */
